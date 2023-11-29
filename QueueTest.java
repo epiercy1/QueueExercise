@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class QueueTest {
 
 	@Test
-	public void testPushAndPop() {
+	public void testAddingAndRemoving() {
 		Queue<Integer>queue = new QueueImplementation<Integer>();
 		queue.add(10);
 		int item = queue.remove();
